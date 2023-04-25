@@ -1,12 +1,8 @@
 # Planka
 
-![David (path)](https://img.shields.io/github/package-json/v/plankanban/planka) ![Docker Pulls](https://img.shields.io/docker/pulls/meltyshev/planka) ![GitHub](https://img.shields.io/github/license/plankanban/planka)
-
 A Trello-like kanban board built with React and Redux.
 
-![](https://raw.githubusercontent.com/plankanban/planka/master/demo.gif)
-
-[**Client demo**](https://plankanban.github.io/planka) (without server features).
+![](https://raw.githubusercontent.com/KanRule/planka/master/demo.gif)
 
 ## Features
 
@@ -23,17 +19,15 @@ A Trello-like kanban board built with React and Redux.
 
 ### Docker Compose
 
-[![](https://d207aa93qlcgug.cloudfront.net/1.95.5.qa/img/nav/docker-logo-loggedout.png)](https://hub.docker.com/r/meltyshev/planka)
-
 - Make sure you have [Docker](https://docs.docker.com/install/) and [Docker Compose](https://docs.docker.com/compose/install/) installed and operational.
-- Create `docker-compose.yml` based on [the example](https://raw.githubusercontent.com/plankanban/planka/master/docker-compose.yml). This is the ONLY file you will need. You can create this file on your own machine by copy and pasting the content.
+- Create `docker-compose.yml` based on [the example](https://raw.githubusercontent.com/KanRule/planka/master/docker-compose.yml). This is the ONLY file you will need. You can create this file on your own machine by copy and pasting the content.
 - Edit `BASE_URL` to match your domain name or IP address.
 - Edit `SECRET_KEY` with random value. You can generate it by `openssl rand -hex 64`.
 
 Download the docker-compose.yml:
 
 ```
-curl -L https://raw.githubusercontent.com/plankanban/planka/master/docker-compose.yml -o docker-compose.yml
+curl -L https://raw.githubusercontent.com/KanRule/planka/master/docker-compose.yml -o docker-compose.yml
 ```
 
 Pull images and start services:
@@ -49,7 +43,7 @@ Demo user: demo@demo.demo demo
 Clone the repository and install dependencies:
 
 ```
-git clone https://github.com/plankanban/planka.git
+git clone https://github.com/KanRule/planka.git
 
 cd planka
 npm install
@@ -83,4 +77,4 @@ Demo user: demo@demo.demo demo
 
 ## License
 
-Planka is [MIT licensed](https://github.com/plankanban/planka/blob/master/LICENSE).
+Planka is [MIT licensed](https://github.com/KanRule/planka/blob/master/LICENSE).
