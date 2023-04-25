@@ -10,7 +10,7 @@ RUN npm install npm@latest --global \
 COPY client .
 RUN npm run build
 
-FROM ghcr.io/plankanban/planka:base-latest
+FROM ghcr.io/KanRule/planka:base-latest
 
 WORKDIR /app
 
